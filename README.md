@@ -1,6 +1,12 @@
 # Assembler School MERN Client
 
-Cliente para la aplicación MERN.
+Client App for the MERN Seed Recipes App.
+
+## Server App
+
+```
+https://github.com/assembler-school/mern-seed-recipes-server
+```
 
 ## Stack
 
@@ -14,22 +20,17 @@ Cliente para la aplicación MERN.
 - normalizr
 - SCSS
 
-## Pasos
+## Getting Started
 
-### Instalar dependencias
+### Install Dependencies
 
-Ejecutar `npm i` o `yarn` en un terminal para instalar las dependencias
+Run `npm i` or `yarn` in the terminal to install the dependencies.
 
-### Instalar dependencias
+Then, run `npm run start` or `yarn start` to start up the app.
 
-Ejecutar `npm run start` o `yarn start` en un terminal para ejecutar nuestra
-applicacion.
+The app will be run by default in the following url: `http://localhost:3000/`
 
-La app se sirve por defecto en el puerto 3000
-
-`http://localhost:3000/`
-
-## Autor
+## Author
 
 [Dani Lucaci](https://www.danilucaci.com/).
 

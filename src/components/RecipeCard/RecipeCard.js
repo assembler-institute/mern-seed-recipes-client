@@ -1,4 +1,5 @@
 import React from "react";
+import { shape, string, number } from "prop-types";
 import cn from "classnames";
 import { Link } from "react-router-dom";
 
@@ -43,5 +44,17 @@ function RecipeCard({
     </div>
   );
 }
+
+RecipeCard.propTypes = {
+  recipe: shape({
+    _id: string.isRequired,
+    name: string.isRequired,
+    difficulty: string.isRequired,
+    image: string.isRequired,
+    serves: number.isRequired,
+    hoursToPrep: number.isRequired,
+    minutesToPrep: number.isRequired,
+  }).isRequired,
+};
 
 export default RecipeCard;

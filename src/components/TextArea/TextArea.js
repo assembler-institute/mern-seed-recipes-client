@@ -1,4 +1,5 @@
 import React from "react";
+import { string } from "prop-types";
 import cn from "classnames";
 
 function TextArea({ additionalClasses = "", ...props }) {
@@ -9,5 +10,13 @@ function TextArea({ additionalClasses = "", ...props }) {
 
   return <textarea className={classes} {...props} />;
 }
+
+TextArea.propTypes = {
+  additionalClasses: string,
+};
+
+TextArea.defaultProps = {
+  additionalClasses: null,
+};
 
 export default TextArea;

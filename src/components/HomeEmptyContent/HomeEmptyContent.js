@@ -1,13 +1,11 @@
 import React from "react";
+import { string } from "prop-types";
 
 import "./HomeEmptyContent.scss";
 
 import { ReactComponent as EmptyStateSVG } from "../../assets/undraw_add_content.svg";
 
-function HomeEmptyContent({
-  title = "Todavía no hay recetas",
-  subhead = "No hay contenido aún",
-}) {
+function HomeEmptyContent({ title, subhead }) {
   return (
     <div className="HomeEmptyContent row flex-column align-items-center">
       <div className="col col-lg-6">
@@ -23,5 +21,15 @@ function HomeEmptyContent({
     </div>
   );
 }
+
+HomeEmptyContent.propTypes = {
+  title: string,
+  subhead: string,
+};
+
+HomeEmptyContent.defaultProps = {
+  title: "Todavía no hay recetas",
+  subhead: "No hay contenido aún",
+};
 
 export default HomeEmptyContent;

@@ -8,7 +8,6 @@ import "./index.scss";
 
 import store, { persistor } from "./redux/store";
 
-
 import App from "./App";
 
 ReactDOM.render(

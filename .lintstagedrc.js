@@ -4,5 +4,5 @@ module.exports = {
     "npm run lint:format",
     "npm run test:related",
   ],
-  "*.{css,scss,html,md,json}": ["npm run lint:format"],
+  "*.{css,scss,html,md,json,yml}": ["npm run lint:format"],
 };

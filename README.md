@@ -2,11 +2,10 @@
 
 Client App for the MERN Seed Recipes App.
 
-## Server App
+## Apps
 
-```
-https://github.com/assembler-school/mern-seed-recipes-server
-```
+- [Client App](https://github.com/assembler-school/mern-seed-recipes-client)
+- [Server App](https://github.com/assembler-school/mern-seed-recipes-server)
 
 ## Stack
 

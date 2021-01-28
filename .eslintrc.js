@@ -15,6 +15,8 @@ module.exports = {
     "prettier/prettier",
     "prettier/react",
     "prettier/standard",
+    "react-app",
+    "react-app/jest",
   ],
   plugins: [
     "html",

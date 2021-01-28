@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Switch, Route } from "react-router-dom";
 
 import ROUTES from "./utils/routes";
@@ -9,6 +9,8 @@ import SignupContainer from "./redux/containers/pages/SignupContainer";
 import RecipeContainer from "./redux/containers/pages/RecipeContainer";
 
 function App() {
+  useEffect(() => {}, []);
+
   return (
     <Switch>
       <Route path={ROUTES.LOGIN}>

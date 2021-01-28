@@ -33,8 +33,6 @@ The app will be run by default in the following url: `http://localhost:3000/`
 
 [Dani Lucaci](https://www.danilucaci.com/).
 
-hola mundo
-
 ## License
 
 Licensed under the [MIT License](./LICENSE).

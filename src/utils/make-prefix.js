@@ -1,1 +1,7 @@
-export default (prefix) => (dataTestId) => `${prefix}-${dataTestId}`;
+function makePrefix(prefix) {
+  return function getTestId(dataTestId) {
+    return `${prefix}-${dataTestId}`;
+  };
+}
+
+export default makePrefix;

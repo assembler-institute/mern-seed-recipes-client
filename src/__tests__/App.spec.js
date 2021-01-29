@@ -98,7 +98,7 @@ describe("App behaviour", () => {
         await waitFor(() =>
           expect(queryByText("recipe-3-name")).toBeInTheDocument(),
         );
-        const items = await queryAllByText(/Tiempo Estimado/);
+        const items = queryAllByText(/Tiempo Estimado/);
 
         expect(items).toHaveLength(3);
       });

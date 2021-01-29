@@ -3,11 +3,11 @@ import { waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
 import App from "../App";
-import { renderWithReduxAndRouter } from "../utils/tests/test-utils";
-import makeTestingServer from "../utils/tests/make-testing-server";
-import allRecipesResponse from "../utils/tests/recipes/all-recipes.json";
-import singleRecipeResponse from "../utils/tests/recipes/single-recipe.json";
-import recipeCommentResponse from "../utils/tests/recipes/recipe-comments.json";
+import { renderWithReduxAndRouter } from "../utils/test-utils";
+import makeTestingServer from "../utils/test-utils/make-testing-server";
+import allRecipesResponse from "../utils/test-utils/recipes/all-recipes.json";
+import singleRecipeResponse from "../utils/test-utils/recipes/single-recipe.json";
+import recipeCommentResponse from "../utils/test-utils/recipes/recipe-comments.json";
 import { signUp } from "../redux/user/user-actions";
 
 const testUser = {

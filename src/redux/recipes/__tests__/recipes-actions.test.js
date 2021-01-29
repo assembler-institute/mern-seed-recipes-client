@@ -8,11 +8,11 @@ import {
 } from "../recipes-actions";
 import RecipesTypes from "../recipes-types";
 
-import { getInitialReduxStoreUserState } from "../../../utils/tests/test-utils";
-import allRecipesResponse from "../../../utils/tests/recipes/all-recipes.json";
-import singleRecipeResponse from "../../../utils/tests/recipes/single-recipe.json";
-import recipeCommentResponse from "../../../utils/tests/recipes/recipe-comments.json";
-import makeTestingServer from "../../../utils/tests/recipes/mock-recipes-service";
+import { getInitialReduxStoreUserState } from "../../../utils/test-utils";
+import allRecipesResponse from "../../../utils/test-utils/recipes/all-recipes.json";
+import singleRecipeResponse from "../../../utils/test-utils/recipes/single-recipe.json";
+import recipeCommentResponse from "../../../utils/test-utils/recipes/recipe-comments.json";
+import makeTestingServer from "../../../utils/test-utils/recipes/mock-recipes-service";
 
 const recipesData = {
   allRecipesResponse,

@@ -4,8 +4,8 @@ import configureStore from "redux-mock-store";
 import { login, signUp, signout } from "../user-actions";
 import UserTypes from "../user-types";
 
-import { getInitialReduxStoreUserState } from "../../../utils/tests/test-utils";
-import makeTestingServer from "../../../utils/tests/user/mock-user-service";
+import { getInitialReduxStoreUserState } from "../../../utils/test-utils";
+import makeTestingServer from "../../../utils/test-utils/user/mock-user-service";
 
 const testUser = {
   name: "test_user_name",

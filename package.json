@@ -1,7 +1,7 @@
 {
   "name": "mern-client",
   "version": "1.0.0",
-  "description": "Client app made with React.js and Node.js for the Assembler School MERN Recipes App by @danilucaci.",
+  "description": "Client app for the Assembler School MERN Recipes Project.",
   "private": true,
   "author": "Dani Lucaci <danilucaci@gmail.com>",
   "repository": {
